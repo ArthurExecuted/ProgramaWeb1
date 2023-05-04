@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+
+#root {
+    font-family: 'Judson', serif;
+}
+
+#googleImg {
+    width: 4vh;
+    height: 4vh;
+    vertical-align: middle;
+}
+
+#googleText {
+    vertical-align: middle;
+    font-size: 3vh;
+    font-family: 'Judson', serif;
+}
+
+#googleBtn {
+    margin-top: 5vh;
+    width: 24vw;
+    height: 6vh;
+    border: transparent;
+    border-radius: 4vh;
+    background-color: #fafafa;
+    transition: 100ms;
+}
+
+#googleBtn:hover {
+    background-color: #cacaca;
+}
+
+#googleBtn:active {
+    background-color: #8a8a8a;
+}
+
+#sendRegister {
+    width: 9vw;
+    height: 6.4vh;
+    font-size: 2.4vh;
+    background-color: aquamarine;
+    margin-left: -9vw;
+    font-family: 'Judson', serif;
+    border: transparent;
+    border-radius: 4vh;
+    transition: 100ms;
+}
+
+#sendRegister:hover {
+    background-color: #9affb8;
+}
+
+#sendRegister:active {
+    background-color: #5da372;
+}
+
+#sendLogIn {
+    width: 9vw;
+    height: 6.4vh;
+    font-size: 2.4vh;
+    background-color: aquamarine;
+    margin-left: -9vw;
+    font-family: 'Judson', serif;
+    border: transparent;
+    border-radius: 4vh;
+    transition: 100ms;
+}
+
+#sendLogIn:hover {
+    background-color: #9affb8;
+}
+
+#sendLogIn:active {
+    background-color: #5da372;
+}
+
+.InputForm {
+    margin: auto;
+    margin-right: 7vw;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    text-align: center;
+}
+
+h2 {
+    -webkit-text-fill-color: #FFF;
+    font-size: 3.5vh;
+}
+
+.register {
+    border-bottom: 1vh dashed #C4C5C4;
+    padding-bottom: 2vh;
+}
+
+.logIn {
+    border-bottom: 1vh dashed #C4C5C4;
+    padding-bottom: 2vh;
+}
+
+.logInRegister {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+input {
+    background-color: #fafafa;
+    border-color: transparent;
+    width: 24vw;
+    height: 5.5vh;
+    border-radius: 4vh;
+    margin-bottom: 3vh;
+    text-align: left;
+    text-indent: 1vw;
+    -webkit-text-fill-color: #404040;
+    font-size: 2.2vh;
+    font-family: 'Judson', serif;
+}
+
+.bodyLogIn {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: url(../public/img/color_bg.png), url(../public/img/cookies_bg.jpg);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+}
+
+body {
+    margin: 0;
+}
