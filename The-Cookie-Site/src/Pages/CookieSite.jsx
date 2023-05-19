@@ -9,12 +9,12 @@ export default function CookieSite() {
                     <img className='pfpPic' src='../public/img/sammy.jpg'/>
                 </div>
                 <div className='searchBar'>
-
+                    <img src='/img/Vector_search_icon.svg.png' id='searchIcon'/>
                     <input type='text' id='searchBar' placeholder='Qual cookie você quer buscar?'/>
                 </div>
             </div>
             <div className='CookieColumns'>
-                <CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard /><CookieCard />
+                <CookieCard />
             </div>
         </div>
     );
