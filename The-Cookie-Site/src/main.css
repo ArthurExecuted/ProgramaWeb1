@@ -153,23 +153,42 @@ body {
 }
 
 .profile {
+    padding-top: 4vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     vertical-align: middle;
-    height: 8vh;
-    width: 8vh;
+    flex-direction: column;
+    height: 8vw;
+    width: 16vw;
     float: left;
-    margin-right: 5vw;
     transition: 100ms;
 }
 
+#signOutAuth {
+    border: none;
+    background-color: #9affb8;
+    border-radius: 1vw;
+    float: right;
+    width: 4vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    transition: 100ms;
+}
+
+#userEmailAuth {
+    float: left;
+    text-overflow: clip;
+    width: 11vw;
+    height: 5vw;
+    font-size: 1vw;
+}
+
 .profile:hover {
-    scale: 110%;
+    scale: 100%;
 }
 
 .profile:active {
-    scale: 120%;
+    scale: 100%;
 }
 
 #searchBar {

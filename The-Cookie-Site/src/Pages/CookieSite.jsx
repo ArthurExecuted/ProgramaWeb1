@@ -1,12 +1,14 @@
 import '../main.css'
 import CookieCard from '../components/cookieCard.jsx';
+import AuthDetails from '../components/AuthDetails';
 
 export default function CookieSite() {
+
     return (
         <div className='bodyCookieSite'>
             <div className='header'>
                 <div className='profile'>
-                    <img className='pfpPic' src='../public/img/sammy.jpg'/>
+                    <AuthDetails/>
                 </div>
                 <div className='searchBar'>
                     <img src='/img/Vector_search_icon.svg.png' id='searchIcon'/>

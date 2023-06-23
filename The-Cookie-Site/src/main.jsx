@@ -7,6 +7,7 @@ import LogIn from './Pages/logInRegister.jsx'
 import Cookie from './Pages/CookieSite.jsx'
 
 import '../src/main.css'
+import ProtectedRoutes from './ProtectedRoutes.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,7 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route element={<App />}>
           <Route path='/' element={<LogIn />}/>
+          <Route element={<ProtectedRoutes/>}>
           <Route path='/Cookie' element={<Cookie />}/>
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>
